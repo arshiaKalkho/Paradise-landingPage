@@ -1,8 +1,8 @@
-import Header from "./components/main/Header";
-import Footer from "./components/main/Footer";
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 
-import Main from "./components/main/Main";
+import Header from "./components/HeaderFooter/Header";
+import Footer from "./components/HeaderFooter/Footer";
+import Main from "./components/Main/Main";
 import Pharma from "./components/Pharma/Pharma";
 import RealEstate from "./components/RealEstate/RealEstate";
 
