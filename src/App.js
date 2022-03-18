@@ -4,17 +4,18 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 
 import Main from "./components/main/Main";
 import Pharma from "./components/Pharma/Pharma";
-import RealState from "./components/RealState/RealState";
+import RealEstate from "./components/RealEstate/RealEstate";
 
 function App() {
   return (
     <>
-      <Header/>
         <BrowserRouter>
+          {/* header needs to be under browser router to have router links */}
+          <Header/>
           <Routes>
             <Route path="/" element={<Main/>}/>
             <Route path="/Pharma" element={<Pharma/>}/>
-            <Route path="/RealState" element={<RealState/>}/>
+            <Route path="/RealState" element={<RealEstate/>}/>
           </Routes>
         </BrowserRouter>
       <Footer/>

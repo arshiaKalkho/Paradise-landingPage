@@ -1,13 +1,32 @@
 import React from 'react';
 import "./headerFooter.css"
-
-
+import {Link} from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouseChimney, faPrescriptionBottleMedical, faBuilding } from '@fortawesome/free-solid-svg-icons'
 function Header() {
   return (
     <div className='header'>
-        <img className='logo' alt='logo' src='./paradise-logo.png' />
         
-        
+        <div className="nav-left">
+          <Link to="/" >
+            <img className='logo' alt='logo' src='./paradise-logo.png' />
+          </Link>
+        </div>
+
+        <div className="nav-right">
+       
+          <Link to="/" className="nav-links">
+            <FontAwesomeIcon className='nav-icon' icon={faHouseChimney} />
+            Home
+          </Link>
+          <Link to="/Pharma" className="nav-links">
+            <FontAwesomeIcon className='nav-icon' icon={faPrescriptionBottleMedical} />
+            Pharmaceutical</Link>
+          <Link to="/RealState" className="nav-links">
+            <FontAwesomeIcon className='nav-icon' icon={faBuilding} />
+            Real Estate
+            </Link>
+        </div>
     </div>
   )
 }
