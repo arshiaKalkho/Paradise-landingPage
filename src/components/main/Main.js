@@ -21,7 +21,7 @@ export default class Main extends Component {
         <div className="pharma">
           <Link to='Pharma' className='pharma-link'> 
             <div className="pharma-text">
-              <h1>Go to Pharmaceutical</h1>
+              <h1>Go to Pharma</h1>
             </div>
           </Link>
           <img src='./images/main-pharma-back.jpg' alt ="real-estate"  />

@@ -48,7 +48,7 @@
   padding: 1rem;
   border-radius: 5px;
   border: 2px solid black;
-  left: 40%;
+  left: 35%;
   background-color: var(--color-headerFooter);
   font-size: larger;
   transform: translateY(50vh);
@@ -63,4 +63,33 @@
 .real-estate-link:hover {
   color: white;
   transition: 200ms ease-in-out;
+}
+@media only screen and (max-width: 1000px) {
+  /* med-lg device and higher */
+  .real-estate-text,
+  .pharma-text {
+    font-size: medium;
+  }
+  .pharma-text {
+    left: 20%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* small device */
+  .real-estate-text,
+  .pharma-text {
+    font-size: small;
+    padding: 0.5rem;
+  }
+  .pharma-text {
+    left: 10%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* x-small device just in case */
+  .real-estate-text,
+  .pharma-text {
+    font-size: x-small;
+    padding: 0.5rem;
+  }
 }
