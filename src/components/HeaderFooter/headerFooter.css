@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 0.75rem;
+  z-index: 999;
 }
 .logo {
   width: 2.25rem;
@@ -44,8 +45,10 @@
   align-items: center;
   justify-content: space-evenly;
   padding: 0 3rem;
-  position: absolute;
+  position: relative;
   bottom: 0;
+  z-index: 999;
+  margin-top: -5px;
 }
 .footer > div {
   display: flex;

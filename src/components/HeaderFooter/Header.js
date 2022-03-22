@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, useLinkClickHandler} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouseChimney, faPrescriptionBottleMedical, faBuilding } from '@fortawesome/free-solid-svg-icons'
@@ -15,7 +15,7 @@ function Header() {
         
         <div className="nav-left">
           <Link to="/" >
-            <img className='logo' alt='logo' src='./paradise-logo.png' />
+            <img className='logo' alt='logo' src='./images/paradise-logo.png' />
           </Link>
         </div>
 
