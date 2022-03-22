@@ -10,7 +10,7 @@ function App() {
   return (
     <>
         <BrowserRouter>
-          {/* header needs to be under browser router to have router links */}
+          {/* Reminder: if header is put outside of the browserRouter we can't use link element inside this is important */}
           <Header/>
           <Routes>
             <Route path="/" element={<Main/>}/>
