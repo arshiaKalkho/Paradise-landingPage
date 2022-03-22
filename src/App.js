@@ -10,7 +10,7 @@ function App() {
   return (
     <>
         <BrowserRouter>
-          {/* Reminder: if header is put outside of the browserRouter we can't use link element inside this is important */}
+          {/* Reminder: if header is put outside of the browserRouter we can't use link element inside un nested component like header in this case, it must be inside the browser router */}
           <Header/>
           <Routes>
             <Route path="/" element={<Main/>}/>
