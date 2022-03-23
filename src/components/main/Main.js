@@ -12,7 +12,7 @@ export default class Main extends Component {
         <div className="real-estate"> 
           <Link to='RealState' className='real-estate-link'>  
             <div className="real-estate-text">
-              <h1>Go to Real Estate</h1>   
+              <h1>Real Estate</h1>   
             </div>     
           </Link>
           <img src='./images/main-real-estate-back.jpg' alt ="pharma"  />
@@ -21,7 +21,7 @@ export default class Main extends Component {
         <div className="pharma">
           <Link to='Pharma' className='pharma-link'> 
             <div className="pharma-text">
-              <h1>Go to Pharma</h1>
+                <h1>Suplements</h1>
             </div>
           </Link>
           <img src='./images/main-pharma-back.jpg' alt ="real-estate"  />
