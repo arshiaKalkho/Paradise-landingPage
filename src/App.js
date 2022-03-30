@@ -5,7 +5,7 @@ import Footer from "./components/HeaderFooter/Footer";
 import Main from "./components/Main/Main";
 import Pharma from "./components/Pharma/Pharma";
 import RealEstate from "./components/RealEstate/RealEstate";
-import 'animate.css';
+
 function App() {
   return (
     <>

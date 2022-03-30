@@ -43,10 +43,16 @@
 .pharma-info {
   width: 100%;
   height: fit-content;
+  padding: 1rem;
+  background-color: var(--color-background);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .pharma-info > h1 {
   text-align: center;
   margin: 3rem;
+  color: var(--color-secondary);
 }
 .pharma-about-container {
   width: 100%;
@@ -60,5 +66,15 @@
 }
 .pharma-about-p {
   width: 90%;
-  max-width: 80rem;
+  max-width: 70rem;
+  margin-left: 3.5rem;
+}
+.about-p-container {
+  background-color: var(--color-primary);
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 6px 4px 2px 1px rgb(202, 201, 201);
+  border: 2px solid var(--color-secondary);
+  border-right: 0;
+  border-bottom: 0;
 }
