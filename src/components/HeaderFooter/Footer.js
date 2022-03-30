@@ -5,7 +5,6 @@ function Footer() {
 
   const clickHandler = (text)=>{
     navigator.clipboard.writeText(text)
-    
   }
 
 
