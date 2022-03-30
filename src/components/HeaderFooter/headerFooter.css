@@ -27,13 +27,13 @@
   transition: 200ms ease-in-out;
 }
 .nav-links:hover {
-  background-color: var(--color-grey);
   color: white;
   transition: 200ms ease-in-out;
 }
-.nav-links:active {
-  color: var(--color-primary);
+#pharma-icon {
+  color: "#FFD200";
 }
+
 .nav-icon {
   margin: 0 3px 1px 0;
 }
