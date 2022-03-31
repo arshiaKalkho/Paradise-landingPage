@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 .card-top > img {
-  width: 25%;
+  width: 30%;
   height: auto;
   max-width: 20rem;
   max-height: 11rem;
@@ -58,4 +58,33 @@
 }
 .body-headers {
   margin: 0.5rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .card-top > img {
+    width: 65%;
+  }
+  .card {
+    min-width: calc(100vw - 2rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .card-top {
+    flex-direction: column;
+    height: fit-content;
+    padding: 1rem 0;
+  }
+  .card-top-center {
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .card-top > img {
+    width: 70%;
+  }
+  .card {
+    min-width: calc(100vw - 1rem);
+    padding: 5px;
+  }
 }
