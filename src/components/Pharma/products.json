@@ -1,6 +1,20 @@
 [{
     "image": "./images/arthelio-image.png",
-    "title" : "test",
-    "body" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem cupiditate, ratione impedit possimus quam nam, iusto quia saepe earum illum magnam, molestiae quae praesentium debitis! Reiciendis quibusdam omnis quod dignissimos! At corrupti hic quam pariatur perferendis? Est odio dolorum repellat nulla libero dolor, nam, sit possimus temporibus totam quo, dolores aspernatur? Facere id ducimus nemo sapiente, rem officia blanditiis nobis, natus ullam, odio commodi nam necessitatibus impedit eaque quam deserunt. Sunt sapiente maxime numquam. Ratione aspernatur voluptatem eius aliquid, voluptas voluptatum reiciendis doloremque? Non, repellat maxime dolor, porro animi a suscipit inventore eius obcaecati temporibus illo expedita numquam. Reprehenderit, laborum."
+    "link" : "www.amazon.com",
+    "title" : "Arthelio",
+    "desc":[" This supplement is for joint discomfort and is formulated with a unique   combination of Vitamin C and Bifidobacterium longum.",
+        " Vitamin C conributes to the normal formation of collagen and ensures the normal function of cartilage, Bifidobacterium longum from the intestinal microbiota, contributing to the balance of the intestinal microbiota, thus preventing the potential passage of endotoxins that can cause micro-inflammations."
+    ],
+    "body" : [
+        " Once daily capsule, taken with or without food.",
+        " Excellent safety profile.",
+        " No known side effects or drug interactions.",
+        " No refrigeration required.",
+        " For optimum results, take for a minimum of 3 months and continue to take on a daily basis."
+    ],
+    "features":[
+        "improves the mobility and the fluidity of the joints.", "Reduces the frequency, duration and intensity of joint pain",
+        "Reduces the pain of osteoarthritis and improves daily functioning.","Reduces discomfort, wherever its location: spine, hands, fingers or knees."
+    ]
 
 }]
