@@ -1,4 +1,8 @@
 .card{
-    min-width: 80rem;
+    
     max-width: calc(100vw-10px);
+}
+.card>img{
+    width: 20%;
+    height: auto;
 }

@@ -6,6 +6,7 @@ import { faCircleInfo,faCapsules, facana } from '@fortawesome/free-solid-svg-ico
 import 'animate.css';
 import ScrollAnimation from 'react-animate-on-scroll'
 
+import products from './products.json'
 import Card from '../Card/Card'
 
 export default class Pharma extends Component {
@@ -63,8 +64,10 @@ export default class Pharma extends Component {
                 </ScrollAnimation>
             </div>
           </div>
-          <div ref={ (ref) => this.RefProducts=ref } className='pharma-produts'>
-                
+            <div ref={ (ref) => this.RefProducts=ref } className='pharma-products'  style={{backgroundImage: 'url(./images/pharma-product-back.jpg)'}}>
+            {products.map((el)=>{
+                return <Card product={el} />
+            })} 
           </div>
           
       </div>
