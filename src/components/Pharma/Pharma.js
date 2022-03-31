@@ -8,7 +8,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 import products from './products.json'
 import Card from '../Card/Card'
-
+import About from '../About/About';
 export default class Pharma extends Component {
     
     constructor(){
@@ -49,21 +49,18 @@ export default class Pharma extends Component {
                 </div>
             </ScrollAnimation>
           </div>
+          <div className="pharma-first-spacer"></div>
           <div ref={ (ref) => this.RefInfo=ref } className='pharma-info' style={{backgroundImage: 'url(./images/pharma-about-back.jpg)'}}>
             <h1>Why Us?</h1>
             <div className="pharma-about-container">
-            <ScrollAnimation className='about-p-container' animateIn='animate__slideInLeft' delay={200}>
-                <h2>Lorem, ipsum.</h2>
-                <p className='pharma-about-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem placeat autem molestias delectus eaque illo reiciendis, perferendis iste fuga possimus temporibus quia tempore, eligendi est hic repudiandae. Quis ab in architecto veritatis sed eligendi maiores, similique provident placeat. Dolore repellat culpa a quo laborum officia sint inventore similique voluptatum veritatis vero laudantium recusandae dignissimos dolores quos nobis ducimus rerum, aperiam corrupti ipsam. Distinctio consectetur deleniti laboriosam labore molestias! Minus nihil ipsa culpa consequatur voluptates eaque illo distinctio ut, eligendi fuga inventore, ducimus necessitatibus quia quos praesentium quam eos facere. Delectus voluptas molestiae architecto sit pariatur perspiciatis laudantium ipsam eum.
-                </p>
-                </ScrollAnimation>
-                <ScrollAnimation className='about-p-container' animateIn='animate__slideInRight' delay={200}>
-                <h2>Lorem, ipsum.</h2>
-                <p className='pharma-about-p'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem cupiditate, ratione impedit possimus quam nam, iusto quia saepe earum illum magnam, molestiae quae praesentium debitis! Reiciendis quibusdam omnis quod dignissimos! At corrupti hic quam pariatur perferendis? Est odio dolorum repellat nulla libero dolor, nam, sit possimus temporibus totam quo, dolores aspernatur? Facere id ducimus nemo sapiente, rem officia blanditiis nobis, natus ullam, odio commodi nam necessitatibus impedit eaque quam deserunt. Sunt sapiente maxime numquam. Ratione aspernatur voluptatem eius aliquid, voluptas voluptatum reiciendis doloremque? Non, repellat maxime dolor, porro animi a suscipit inventore eius obcaecati temporibus illo expedita numquam. Reprehenderit, laborum.
-                </p>
-                </ScrollAnimation>
+            <ScrollAnimation className='about-p-container' animateIn='animate__fadeIn' delay={200}>
+                <About></About>
+                
+            </ScrollAnimation>
             </div>
           </div>
+          <div className="pharma-second-spacer"></div>
+          
             <div ref={ (ref) => this.RefProducts=ref } className='pharma-products'  style={{backgroundImage: 'url(./images/pharma-product-back.jpg)'}}>
             <h1>Suplements</h1><ScrollAnimation animateIn='animate__slideInLeft' delay={200}>
                 {products.map((el)=>{

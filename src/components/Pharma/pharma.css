@@ -37,8 +37,22 @@
 
   padding: 1rem;
 }
+/* colors if backgrounds change here */
+/* colors if backgrounds change here */
+/* colors if backgrounds change here */
+/* colors if backgrounds change here */
+.pharma-first-spacer {
+  height: 2vh;
+  width: 100%;
+  background: linear-gradient(0.5turn, #ffcc01, #003470);
+}
+.pharma-second-spacer {
+  height: 2vh;
+  width: 100%;
+  background: linear-gradient(0.5turn, #003470, #ffcc01);
+}
 .pharma-image-text {
-  min-width: 20rem;
+  min-width: 18rem;
   max-width: calc(100vw - 10px);
   padding: 1rem;
   font-size: 1.4rem;
