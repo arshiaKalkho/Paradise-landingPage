@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import './pharma.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleInfo,faCapsules } from '@fortawesome/free-solid-svg-icons'
+import { faCircleInfo,faCapsules, facana } from '@fortawesome/free-solid-svg-icons'
 
 import 'animate.css';
 import ScrollAnimation from 'react-animate-on-scroll'
 
 import Card from '../Card/Card'
+
 export default class Pharma extends Component {
     
     constructor(){
@@ -32,6 +33,11 @@ export default class Pharma extends Component {
     return (
       <div className='pharma-main'>
           <div className='pharma-image-container' style={{backgroundImage: 'url(./images/pharma-back.jpg)'}}>
+          <div className='top-header-container'>
+            <div className='top-header'>Proudly a Canadian <img className='logo' alt='logo' src='./images/canadian-flag.png' /> Company
+            </div>
+          </div>
+          
           <ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
                 <div className='pharma-image-text'>
                     <h1>Suplements designed by professionals</h1>
