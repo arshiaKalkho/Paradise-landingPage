@@ -4,6 +4,7 @@
   border: 1px solid black;
   border-radius: 5px;
   background-color: rgb(230, 230, 230, 0.95);
+  box-shadow: 3px 2px 1px 1px rgba(0, 0, 0, 0.4);
   padding: 1rem 2rem;
   padding-bottom: 4rem;
   position: relative;
