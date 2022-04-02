@@ -17,6 +17,7 @@
   box-shadow: 3px 2px 1px 1px rgba(0, 0, 0, 0.4);
   padding: 1rem;
   width: 30%;
+  height: 12rem;
   
 
 }
@@ -39,7 +40,7 @@
 @media only screen and (max-width: 400px) {
     
     .about-card {
-      min-width: calc(100vw - 1rem);
+      
       padding: 5px;
     }
   }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './pharma.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleInfo,faCapsules, facana } from '@fortawesome/free-solid-svg-icons'
+import { faCircleInfo,faCapsules } from '@fortawesome/free-solid-svg-icons'
 
 import 'animate.css';
 import ScrollAnimation from 'react-animate-on-scroll'
@@ -9,6 +9,9 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import products from './products.json'
 import Card from '../Card/Card'
 import About from '../About/About';
+import AboutOwner from '../AboutOwner/AboutOwner';
+
+
 export default class Pharma extends Component {
     
     constructor(){
@@ -39,7 +42,7 @@ export default class Pharma extends Component {
             </div>
           </div>
           
-          <ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
+          <ScrollAnimation animateIn='animate__bounceInRight' delay={200}>
                 <div className='pharma-image-text'>
                     <h1>Suplements designed by professionals</h1>
                     <p>Checkout of products below, feel free to contant us for more information.</p>
@@ -52,11 +55,12 @@ export default class Pharma extends Component {
           <div className="pharma-first-spacer"></div>
           <div ref={ (ref) => this.RefInfo=ref } className='pharma-info' style={{backgroundImage: 'url(./images/pharma-about-back.jpg)'}}>
             <h1>About Us</h1>
+            <ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
+              <AboutOwner />
+            </ScrollAnimation>
             
-            <ScrollAnimation animateIn='animate__bounceInRight' delay={200}>
-                
+            <ScrollAnimation animateIn='animate__bounceInRight' delay={200}>  
                 <About/>
-                
             </ScrollAnimation>
             
           </div>
