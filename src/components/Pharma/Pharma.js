@@ -43,13 +43,13 @@ export default class Pharma extends Component {
           </div>
           
           <ScrollAnimation animateIn='animate__fadeInDown' delay={200} offset={750} initiallyVisible={true}>
-                <div className='pharma-image-text'>
-                    <h1>Suplements designed by professionals</h1>
-                    <p>Checkout of products below, feel free to contant us for more information.</p>
-                    
-                    <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}}/><span className="scrollTo" onClick={this.goToInfo}> Why Us <FontAwesomeIcon icon={faCircleInfo} /></span><br/>
-                    <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}} /><span className="scrollTo" onClick={this.goToProduct}> Checkout our suplements <FontAwesomeIcon icon={faCapsules} /></span>
-                </div>
+              <div className='pharma-image-text'>
+                <h1>Suplements designed by professionals</h1>
+                <p>Checkout of products below, feel free to contant us for more information.</p>
+                
+                <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}}/><span className="scrollTo" onClick={this.goToInfo}> Why Us <FontAwesomeIcon icon={faCircleInfo} /></span><br/>
+                <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}} /><span className="scrollTo" onClick={this.goToProduct}> Checkout our suplements <FontAwesomeIcon icon={faCapsules} /></span>
+              </div>
             </ScrollAnimation>
           </div>
           <div className="pharma-first-spacer"></div>
@@ -67,10 +67,10 @@ export default class Pharma extends Component {
           <div className="pharma-second-spacer"></div>
           
             <div ref={ (ref) => this.RefProducts=ref } className='pharma-products'  style={{backgroundImage: 'url(./images/pharma-product-back.jpg)'}}>
-            <h1>Suplements</h1><ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
-                {products.map((el)=>{
-                    return <Card product={el} />
-                })} 
+              <h1>Suplements</h1><ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
+              {products.map((el)=>{
+                  return <Card product={el} />
+              })} 
             </ScrollAnimation>
           </div>
           
