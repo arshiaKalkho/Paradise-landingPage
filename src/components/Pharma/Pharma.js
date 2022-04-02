@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './pharma.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleInfo,faCapsules } from '@fortawesome/free-solid-svg-icons'
+import { faCircleInfo,faCapsules, faAnglesRight } from '@fortawesome/free-solid-svg-icons'
 
 import 'animate.css';
 import ScrollAnimation from 'react-animate-on-scroll'
@@ -42,13 +42,13 @@ export default class Pharma extends Component {
             </div>
           </div>
           
-          <ScrollAnimation animateIn='animate__bounceInRight' delay={200}>
+          <ScrollAnimation animateIn='animate__fadeInDown' delay={200} offset={750} initiallyVisible={true}>
                 <div className='pharma-image-text'>
                     <h1>Suplements designed by professionals</h1>
                     <p>Checkout of products below, feel free to contant us for more information.</p>
                     
-                    <span className="scrollTo" onClick={this.goToInfo}>Why Us <FontAwesomeIcon icon={faCircleInfo} /></span><br/>
-                    <span className="scrollTo" onClick={this.goToProduct}>Checkout our suplements <FontAwesomeIcon icon={faCapsules} /></span>
+                    <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}}/><span className="scrollTo" onClick={this.goToInfo}> Why Us <FontAwesomeIcon icon={faCircleInfo} /></span><br/>
+                    <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}} /><span className="scrollTo" onClick={this.goToProduct}> Checkout our suplements <FontAwesomeIcon icon={faCapsules} /></span>
                 </div>
             </ScrollAnimation>
           </div>

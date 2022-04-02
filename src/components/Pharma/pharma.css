@@ -52,7 +52,7 @@
   background: linear-gradient(0.5turn, #003470, #ffcc01);
 }
 .pharma-image-text {
-  min-width: 18rem;
+  min-width: 16rem;
   max-width: calc(100vw - 10px);
   padding: 1rem;
   font-size: 1.4rem;
@@ -118,8 +118,18 @@
   margin: 3rem;
   color: var(--color-secondary);
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 400px) {
   .pharma-image-container {
     gap: 5rem;
   }
+  
+}
+@media only screen and (orientation:landscape)
+ and (max-height: 500px)
+{
+   .pharma-image-text {
+     margin-top: -70vh;
+     font-size: 0.9rem;
+    
+   }
 }
