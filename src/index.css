@@ -10,9 +10,12 @@
   
 }
 html {
-  --color-primary: #8896bb;
-  --color-secondary: #dc430f;
-  --color-background: #f8f8f8;
+  --color-pharma-primary: #8896bb;
+  --color-pharma-secondary: #dc430f;
+  --color-pharma-background: #f8f8f8;
+  --color-realEstate-primary: #8896bb;
+  --color-realEstate-secondary: #dc430f;
+  --color-realEstate-background: #f8f8f8;
   --color-headerFooter: #c7c5dc;
   --color-grey: #bebebe;
   --color-text: #111116;

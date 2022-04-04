@@ -3,8 +3,8 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Header from "./components/HeaderFooter/Header";
 import Footer from "./components/HeaderFooter/Footer";
 import Main from "./components/Main/Main";
-import Pharma from "./components/Pharma/Pharma";
-import RealEstate from "./components/RealEstate/RealEstate";
+import Pharma from "./components/pharma/Pharma/Pharma";
+import RealEstate from "./components/realEstate/RealEstate/RealEstate";
 
 function App() {
   return (

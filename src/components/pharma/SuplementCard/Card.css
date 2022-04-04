@@ -43,7 +43,7 @@
   padding: 1rem;
   border: 2px dashed black;
   border-radius: 0 0 3rem 3rem;
-  background-color: var(--color-secondary);
+  background-color: var(--color-pharma-secondary);
 
   transition: 200ms ease-in-out;
 }

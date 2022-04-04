@@ -3,7 +3,7 @@ import './Card.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCartShopping, faCircleCheck, faAnglesRight, faMinus} from '@fortawesome/free-solid-svg-icons'
 
-function Card(props) {
+function SuplementCard(props) {
   
 
 
@@ -44,4 +44,4 @@ function Card(props) {
   )
 }
 
-export default Card
+export default SuplementCard

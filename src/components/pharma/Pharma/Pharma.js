@@ -7,7 +7,7 @@ import 'animate.css';
 import ScrollAnimation from 'react-animate-on-scroll'
 
 import products from './products.json'
-import Card from '../Card/Card'
+import SuplementCard from '../SuplementCard/SuplementCard'
 import About from '../About/About';
 import AboutOwner from '../AboutOwner/AboutOwner';
 
@@ -69,7 +69,7 @@ export default class Pharma extends Component {
             <div ref={ (ref) => this.RefProducts=ref } className='pharma-products'  style={{backgroundImage: 'url(./images/pharma-product-back.jpg)'}}>
               <h1>Suplements</h1><ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
               {products.map((el)=>{
-                  return <Card product={el} />
+                  return <SuplementCard product={el} />
               })} 
             </ScrollAnimation>
           </div>

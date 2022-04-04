@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import './RealEstate.css'
 
 export default class RealEstate extends Component {
   render() {
     return (
-      <div>RealState</div>
+      <div className='realEstate-main'>RealState</div>
     )
   }
 }

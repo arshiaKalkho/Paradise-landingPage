@@ -28,7 +28,7 @@
 }
 .inline-emphesis{
     text-decoration: none;
-    color: var(--color-secondary);
+    color: var(--color-pharma-secondary);
 }
 @media only screen and (max-width: 700px){
     .aboutOwner-container{

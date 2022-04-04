@@ -18,7 +18,7 @@
   background-color: #ffd100;
   border-radius: 5px;
   font-size: 1.5rem;
-  border: 1px solid var(--color-secondary);
+  border: 1px solid var(--color-pharma-secondary);
   align-items: center;
   justify-content: center;
   gap: 1rem;
@@ -59,13 +59,13 @@
 
   border-radius: 5px;
 
-  border: 1px solid var(--color-secondary);
+  border: 1px solid var(--color-pharma-secondary);
   background-color: rgb(230, 230, 230, 0.3);
 
   transition: 200ms ease-in-out;
 }
 .pharma-image-text:hover {
-  background-color: var(--color-primary);
+  background-color: var(--color-pharma-primary);
   transition: 200ms ease-in-out;
 }
 .scrollTo {
@@ -80,7 +80,7 @@
   width: 100%;
   height: fit-content;
   padding: 2rem 1rem;
-  background-color: var(--color-background);
+  background-color: var(--color-pharma-background);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -91,7 +91,7 @@
   font-size: 3rem;
   
   margin: 3rem;
-  color: var(--color-secondary);
+  color: var(--color-pharma-secondary);
 }
 
 .pharma-about-p {
@@ -116,7 +116,7 @@
 .pharma-products > h1 {
   text-align: center;
   margin: 3rem;
-  color: var(--color-secondary);
+  color: var(--color-pharma-secondary);
 }
 @media only screen and (max-width: 400px) {
   .pharma-image-container {
