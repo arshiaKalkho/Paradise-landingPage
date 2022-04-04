@@ -61,7 +61,7 @@
   transition: 200ms ease-in-out;
 }
 .scrollTo:hover {
-  color: var(--color-secondary);
+  color: var(--color-realEstate-secondary);
   transition: 200ms ease-in-out;
 }
 .realEstate-info {

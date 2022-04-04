@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './RealEstate.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleInfo,faCapsules, faAnglesRight } from '@fortawesome/free-solid-svg-icons'
+import { faCircleInfo, faBuildingCircleExclamation, faBuildingFlag, faAnglesRight } from '@fortawesome/free-solid-svg-icons'
 
 import 'animate.css';
 import ScrollAnimation from 'react-animate-on-scroll'
@@ -47,8 +47,8 @@ export default class realEstate extends Component {
                 <h1>Suplements designed by professionals</h1>
                 <p>Checkout of products below, feel free to contant us for more information.</p>
                 
-                <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}}/><span className="scrollTo" onClick={this.goToAbout}> Why Us <FontAwesomeIcon icon={faCircleInfo} /></span><br/>
-                <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}} /><span className="scrollTo" onClick={this.goToProjects}> Checkout our suplements <FontAwesomeIcon icon={faCapsules} /></span>
+                <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}}/><span className="scrollTo" onClick={this.goToAbout}> Why Us <FontAwesomeIcon icon={faBuildingCircleExclamation} /></span><br/>
+                <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}} /><span className="scrollTo" onClick={this.goToProjects}> Checkout our projects <FontAwesomeIcon icon={faBuildingFlag} /></span>
               </div>
             </ScrollAnimation>
           </div>
