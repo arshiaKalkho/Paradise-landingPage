@@ -7,14 +7,13 @@
   margin: 0;
   padding: 0;
   font-family: "Oswald", sans-serif;
-  
 }
 html {
   --color-pharma-primary: #8896bb;
   --color-pharma-secondary: #dc430f;
   --color-pharma-background: #f8f8f8;
-  --color-realEstate-primary: #8896bb;
-  --color-realEstate-secondary: #dc430f;
+  --color-realEstate-primary: #57cca9;
+  --color-realEstate-secondary: #ce6542;
   --color-realEstate-background: #f8f8f8;
   --color-headerFooter: #c7c5dc;
   --color-grey: #bebebe;

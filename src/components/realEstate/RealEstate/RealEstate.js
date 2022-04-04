@@ -16,17 +16,17 @@ export default class realEstate extends Component {
     
     constructor(){
         super()
-        this.RefInfo = React.createRef()
-        this.RefProducts = React.createRef()
+        this.RefAbout = React.createRef()
+        this.RefProjects = React.createRef()
     }
-    goToInfo = ()=>{
-        this.RefInfo.scrollIntoView({
+    goToAbout = ()=>{
+        this.RefAbout.scrollIntoView({
             behavior:"smooth",
             block:"start"
         })
     }
-    goToProduct = ()=>{
-        this.RefProducts.scrollIntoView({
+    goToProjects = ()=>{
+        this.RefProjects.scrollIntoView({
             behavior:"smooth",
             block:"start"
         })
@@ -47,13 +47,13 @@ export default class realEstate extends Component {
                 <h1>Suplements designed by professionals</h1>
                 <p>Checkout of products below, feel free to contant us for more information.</p>
                 
-                <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}}/><span className="scrollTo" onClick={this.goToInfo}> Why Us <FontAwesomeIcon icon={faCircleInfo} /></span><br/>
-                <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}} /><span className="scrollTo" onClick={this.goToProduct}> Checkout our suplements <FontAwesomeIcon icon={faCapsules} /></span>
+                <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}}/><span className="scrollTo" onClick={this.goToAbout}> Why Us <FontAwesomeIcon icon={faCircleInfo} /></span><br/>
+                <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}} /><span className="scrollTo" onClick={this.goToProjects}> Checkout our suplements <FontAwesomeIcon icon={faCapsules} /></span>
               </div>
             </ScrollAnimation>
           </div>
           
-          <div ref={ (ref) => this.RefInfo=ref } className='realEstate-info' style={{backgroundImage: 'url(./images/realEstate-about-back.jpg)'}}>
+          <div ref={ (ref) => this.RefAbout=ref } className='realEstate-info' style={{backgroundImage: 'url(./images/realEstate-about-back.jpg)'}}>
             <h1>About Us</h1>
             <ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
               <AboutOwner />
@@ -66,7 +66,7 @@ export default class realEstate extends Component {
           </div>
           
           
-            <div ref={ (ref) => this.RefProducts=ref } className='realEstate-products'  style={{backgroundImage: 'url(./images/realEstate-projects-back.jpg)'}}>
+            <div ref={ (ref) => this.RefProjects=ref } className='realEstate-products'  style={{backgroundImage: 'url(./images/realEstate-projects-back.jpg)'}}>
               <h1>Suplements</h1><ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
               {projects.map((el)=>{
                   return <projectCard product={el} />
