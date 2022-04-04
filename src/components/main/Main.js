@@ -10,7 +10,7 @@ export default class Main extends Component {
     return (
       <div className="main">
         <div className="real-estate"> 
-          <Link to='RealState' className='real-estate-link'>  
+          <Link to='RealEstate' className='real-estate-link'>  
             <div className="real-estate-text">
               <h1>Real Estate</h1>   
             </div>     

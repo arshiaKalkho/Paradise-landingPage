@@ -1,14 +1,79 @@
 import React, { Component } from 'react'
 import './RealEstate.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleInfo,faCapsules, faAnglesRight } from '@fortawesome/free-solid-svg-icons'
 
-export default class RealEstate extends Component {
-  render() {
+import 'animate.css';
+import ScrollAnimation from 'react-animate-on-scroll'
+
+import projects from './projects.json'
+import projectCard from '../ProjectCard/projectCard'
+import About from '../About/About';
+import AboutOwner from '../AboutOwner/AboutOwner';
+
+
+export default class realEstate extends Component {
+    
+    constructor(){
+        super()
+        this.RefInfo = React.createRef()
+        this.RefProducts = React.createRef()
+    }
+    goToInfo = ()=>{
+        this.RefInfo.scrollIntoView({
+            behavior:"smooth",
+            block:"start"
+        })
+    }
+    goToProduct = ()=>{
+        this.RefProducts.scrollIntoView({
+            behavior:"smooth",
+            block:"start"
+        })
+    }
+    
+    
+    render() {
     return (
-      <div className='realEstate-image-container' style={{backgroundImage:"url(./images/realEstate-back.jpg)"}}>
-        <div className="realEstate-top-header-container">
-          <div className='realEstate-top-header'>Proudly a Canadian <img className='logo' alt='logo' src='./images/canadian-flag.png' /> Company
+      <div className='realEstate-main'>
+          <div className='realEstate-image-container' style={{backgroundImage: 'url(./images/realEstate-back.jpg)'}}>
+          <div className='top-header-container'>
+            <div className='top-header'>Proudly a Canadian <img className='logo' alt='logo' src='./images/canadian-flag.png' /> Company
+            </div>
+          </div>
+          
+          <ScrollAnimation animateIn='animate__fadeInDown' delay={200} offset={750} initiallyVisible={true}>
+              <div className='realEstate-image-text'>
+                <h1>Suplements designed by professionals</h1>
+                <p>Checkout of products below, feel free to contant us for more information.</p>
+                
+                <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}}/><span className="scrollTo" onClick={this.goToInfo}> Why Us <FontAwesomeIcon icon={faCircleInfo} /></span><br/>
+                <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}} /><span className="scrollTo" onClick={this.goToProduct}> Checkout our suplements <FontAwesomeIcon icon={faCapsules} /></span>
               </div>
-        </div>
+            </ScrollAnimation>
+          </div>
+          
+          <div ref={ (ref) => this.RefInfo=ref } className='realEstate-info' style={{backgroundImage: 'url(./images/realEstate-about-back.jpg)'}}>
+            <h1>About Us</h1>
+            <ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
+              <AboutOwner />
+            </ScrollAnimation>
+            
+            <ScrollAnimation animateIn='animate__bounceInRight' delay={200}>  
+                <About/>
+            </ScrollAnimation>
+            
+          </div>
+          
+          
+            <div ref={ (ref) => this.RefProducts=ref } className='realEstate-products'  style={{backgroundImage: 'url(./images/realEstate-projects-back.jpg)'}}>
+              <h1>Suplements</h1><ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
+              {projects.map((el)=>{
+                  return <projectCard product={el} />
+              })} 
+            </ScrollAnimation>
+          </div>
+          
       </div>
     )
   }
