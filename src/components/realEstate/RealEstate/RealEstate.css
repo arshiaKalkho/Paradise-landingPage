@@ -1,0 +1,29 @@
+.realEstate-image-container{
+    width: 100%;
+    height: 100vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+}
+.realEstate-top-header-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.realEstate-top-header{
+  font-weight: bolder;
+  display: flex;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  border: 1px solid var(--color-realEstate-secondary);
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.realEstate-top-header>img{
+    border: none;
+}
