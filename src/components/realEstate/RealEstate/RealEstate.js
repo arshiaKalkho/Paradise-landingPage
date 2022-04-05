@@ -47,8 +47,13 @@ export default class realEstate extends Component {
                 <h1>Suplements designed by professionals</h1>
                 <p>Checkout of products below, feel free to contant us for more information.</p>
                 
-                <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}}/><span className="scrollTo" onClick={this.goToAbout}> Why Us <FontAwesomeIcon icon={faBuildingCircleExclamation} /></span><br/>
-                <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}} /><span className="scrollTo" onClick={this.goToProjects}> Checkout our projects <FontAwesomeIcon icon={faBuildingFlag} /></span>
+                <div className="realEstate-scrollTo-container">
+                  <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}}/><span className="scrollTo" onClick={this.goToAbout}> Why Us <FontAwesomeIcon icon={faBuildingCircleExclamation} /></span>
+                </div>
+                <div className="realEstate-scrollTo-container">
+                  <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}} /><span className="scrollTo" onClick={this.goToProjects}> Checkout our projects <FontAwesomeIcon icon={faBuildingFlag} /></span>
+                </div>
+                
               </div>
             </ScrollAnimation>
           </div>

@@ -64,6 +64,7 @@
   color: var(--color-realEstate-secondary);
   transition: 200ms ease-in-out;
 }
+
 .realEstate-info {
   width: 100%;
   height: fit-content;
