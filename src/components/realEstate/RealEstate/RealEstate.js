@@ -7,7 +7,7 @@ import 'animate.css';
 import ScrollAnimation from 'react-animate-on-scroll'
 
 import projects from './projects.json'
-import projectCard from '../ProjectCard/projectCard'
+import ProjectCard from '../ProjectCard/ProjectCard'
 import About from '../About/About';
 import AboutOwner from '../AboutOwner/AboutOwner';
 
@@ -72,9 +72,10 @@ export default class realEstate extends Component {
           
           
             <div ref={ (ref) => this.RefProjects=ref } className='realEstate-products'  style={{backgroundImage: 'url(./images/realEstate-projects-back.jpg)'}}>
-              <h1>Suplements</h1><ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
+              <h1>Projects</h1>
+              <ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
               {projects.map((el)=>{
-                  return <projectCard product={el} />
+                  return <ProjectCard project={el} />
               })} 
             </ScrollAnimation>
           </div>

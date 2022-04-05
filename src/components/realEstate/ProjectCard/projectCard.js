@@ -3,43 +3,27 @@ import './projectCard.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCircleCheck,faCartShopping, faAnglesRight, faMinus} from '@fortawesome/free-solid-svg-icons'
 
-function projectCard(props) {
+function ProjectCard(props) {
   
 return (
+    
     <div className='realEstate-card'>
-      <div className='realEstate-card-header'><h1>{props.product.title}</h1></div>    
-        <a href={props.product.link}>
-          
-          <div className='realEstate-card-link'>
-            Buy
-            <FontAwesomeIcon style={{color:"black"}} icon={faCartShopping}/>
-          </div>
-        </a>
-        <div className='realEstate-card-top'>
-          <img src={props.product.image} alt=""/>
-          <div className='realEstate-card-top-center'>
+        
+        <div className='realEstate-card-header'>
+            <h1>{props.project.title}</h1>
+        </div>    
+        <div className="realEstate-card-body-container">
+            <img src={props.project.image} alt=""/>
+
+            <div className='realEstate-card-body'>
             
-            {props.product.features.map((el)=>{
-              return (
-              <>
-                <FontAwesomeIcon icon={faCircleCheck} style={{color:"green"}}/>{el} <br/>
-              </>)
-            })}
-          </div>
-        </div>
-        <hr />
-        <div className='realEstate-card-body'>
-          <h3 className='realEstate-body-headers'>Description:</h3>
-          {props.product.desc.map((el)=>{
-            return (<> <FontAwesomeIcon icon={faMinus} style={{color:"var(--color-primary)"}}/> {el} <br/></>)
-          })}  
-          <h3 className='realEstate-body-headers'>Features: </h3>
-          {props.product.body.map((el)=>{
-            return (<> <FontAwesomeIcon icon={faAnglesRight} style={{color:"green"}}/>{el} <br/></>)
-          })}  
+                {props.project.desc.map((el)=>{
+                    return (<> <FontAwesomeIcon icon={faMinus} style={{color:"var(--color-primary)"}}/> {el} <br/></>)
+                })}  
+            </div>          
         </div>    
     </div>   
     )
 }
 
-export default projectCard
+export default ProjectCard
