@@ -4,9 +4,9 @@ import './AboutOwner.css'
 
 function AboutOwner() {
   return (
-    <div className='aboutOwner-container'>
-        <img src="./images/javad-faceshot.jpg" className='faceShot' alt='' />
-        <div className="about-owner">
+    <div className='realEstate-aboutOwner-container'>
+        <img src="./images/javad-faceshot.jpg" className='realEstate-faceShot' alt='' />
+        <div className="realEstate-about-owner">
             <h2>About Me</h2>
             <p>- My name is Javad I'm a business man with more than 40 years of  experience primarily in Pharmaseutical sale, export and import to and from Canada.<br/>
             - I have a PHD in Pharmasuetical science from the. In the past years I've created many successful companies most of which are working to this day, some of which would be companies like Caspian Pharma, Pardise Darou , Riso pharma, Taban Darou and Yaghout holdings.<br/>
