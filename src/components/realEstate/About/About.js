@@ -6,19 +6,19 @@ function About() {
       <div className="realEstate-about-card-section">
         <h2 className='realEstate-about-card-setion-headers'>Our Mission</h2>
           <p>
-            Our mission is to find life find life changing supplements and bring them to you, Anywhere inside Canada working in tendom with Canadian businesses supporting them in the way.  
+            Our mission is to find opportunities for realestate devlopment. in doing so provide housing and job opportunities for tens of thousands of canadians and take this beautiful city to the next level. 
           </p>
       </div>
       <div className="realEstate-about-card-section">
         <h2 className='realEstate-about-card-setion-headers'>Our Past</h2>
           <p>
-            Paradie is a company based in Ontario, Our CEO Javad Kalkhorani is a Pharmacist with 40 years of international experience working with companies like Merc and Aventis. So don't worry you are in good hands. 
+            Paradise is been in business since 2015 and has many ongoing and successful ventures here in Ontario primarily in Toronto in tendom with our close buisness partners as <span className='inline-emphesis'><a className='inline-emphesis' href="https://zonix.ca">Zonix Group</a></span>. To checkout our project head down below. 
           </p>
       </div>
       <div className="realEstate-about-card-section">
         <h2 className='realEstate-about-card-setion-headers'>What we do</h2>
           <p>
-            Our business is based in supplements and real estate, we invest in new and proven products bringing them the attention they deserve. So if you think you fit the bill contact us were very excited to work with you.
+            We find areas in Ontario that are available and have housing or office demands, then after the doing the neccessary research start a development project with the help of our partners developing condos. On the way we will always pick up new parters and shareholders on the way.
           </p>
       </div>
     </div>

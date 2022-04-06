@@ -44,8 +44,8 @@ export default class realEstate extends Component {
           
           <ScrollAnimation animateIn='animate__fadeInDown' delay={200} offset={750} initiallyVisible={true}>
               <div className='realEstate-image-text'>
-                <h1>Suplements designed by professionals</h1>
-                <p>Checkout of products below, feel free to contant us for more information.</p>
+                <h1>Welcome to Paradice RealEstate</h1>
+                <p>Thinking about investing? checkout who we are and what were working on below.<br/> Feel free to contact us.</p>
                 
                 <div className="realEstate-scrollTo-container">
                   <FontAwesomeIcon icon={faAnglesRight} style={{color: "green"}}/><span className="scrollTo" onClick={this.goToAbout}> Why Us <FontAwesomeIcon icon={faBuildingCircleExclamation} /></span>
