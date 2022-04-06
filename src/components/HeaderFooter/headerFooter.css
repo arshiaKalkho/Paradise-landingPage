@@ -39,12 +39,12 @@
 }
 .footer {
   width: 100%;
-  height: 6rem;
+  height: fit-content;
   background-color: var(--color-headerFooter);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-evenly;
-  padding: 0 3rem;
+  padding: 1rem 3rem;
   position: relative;
   bottom: 0;
   z-index: 999;
@@ -54,8 +54,22 @@
   display: flex;
   flex-direction: column;
 }
+.footer-logo{
+  height: 6rem;
+  width: 6rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
 .footer-icon {
   margin: 0 3px 1px 0;
+}
+.quick-access-links{
+  text-decoration: none;
+  color: black;
+}
+.footer-headers{
+  margin-bottom: 1rem;
 }
 .copy-contact {
   padding: 3px;
@@ -68,6 +82,12 @@
 .copy-contact:active {
   background-color: green;
   transition: 0;
+}
+.footer-footer{
+  border-top: 1px solid black;
+  height: 2rem;
+  background-color: rgb(148, 176, 201);
+  text-align: center;
 }
 @media only screen and (max-width: 700px) {
   .nav-right {

@@ -58,7 +58,7 @@ export default class realEstate extends Component {
             </ScrollAnimation>
           </div>
           
-          <div ref={ (ref) => this.RefAbout=ref } className='realEstate-info' style={{backgroundImage: 'url(./images/realEstate-about-back.jpg)'}}>
+          <div ref={ (ref) => this.RefAbout=ref } className='realEstate-info' id='About' style={{backgroundImage: 'url(./images/realEstate-about-back.jpg)'}}>
             <h1>About Us</h1>
             <ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
               <AboutOwner />
@@ -71,7 +71,7 @@ export default class realEstate extends Component {
           </div>
           
           
-            <div ref={ (ref) => this.RefProjects=ref } className='realEstate-products'  style={{backgroundImage: 'url(./images/realEstate-projects-back.jpg)'}}>
+            <div ref={ (ref) => this.RefProjects=ref } className='realEstate-products' id='Projects' style={{backgroundImage: 'url(./images/realEstate-projects-back.jpg)'}}>
               <h1>Projects</h1>
               <ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
               {projects.map((el)=>{

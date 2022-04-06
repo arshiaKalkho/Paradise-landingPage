@@ -53,7 +53,7 @@ export default class Pharma extends Component {
             </ScrollAnimation>
           </div>
           <div className="pharma-first-spacer"></div>
-          <div ref={ (ref) => this.RefInfo=ref } className='pharma-info' style={{backgroundImage: 'url(./images/pharma-about-back.jpg)'}}>
+          <div ref={ (ref) => this.RefInfo=ref } className='pharma-info' id='About' style={{backgroundImage: 'url(./images/pharma-about-back.jpg)'}}>
             <h1>About Us</h1>
             <ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
               <AboutOwner />
@@ -66,7 +66,7 @@ export default class Pharma extends Component {
           </div>
           <div className="pharma-second-spacer"></div>
           
-            <div ref={ (ref) => this.RefProducts=ref } className='pharma-products'  style={{backgroundImage: 'url(./images/pharma-product-back.jpg)'}}>
+            <div ref={ (ref) => this.RefProducts=ref } className='pharma-products' id='Suplements'  style={{backgroundImage: 'url(./images/pharma-product-back.jpg)'}}>
               <h1>Suplements</h1><ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
               {products.map((el)=>{
                   return <SuplementCard product={el} />
