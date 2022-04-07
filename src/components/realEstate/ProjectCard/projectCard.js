@@ -1,7 +1,7 @@
 import React from 'react'
-import './projectCard.css'
+import './ProjectCard.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faCircleCheck,faCartShopping, faAnglesRight, faMinus} from '@fortawesome/free-solid-svg-icons'
+import {faMinus} from '@fortawesome/free-solid-svg-icons'
 
 function ProjectCard(props) {
   
@@ -18,7 +18,11 @@ return (
             <div className='realEstate-card-body'>
             
                 {props.project.desc.map((el)=>{
-                    return (<> <FontAwesomeIcon icon={faMinus} style={{color:"var(--color-primary)"}}/> {el} <br/></>)
+                    return (
+                    <>
+                     <p><FontAwesomeIcon icon={faMinus} style={{color:"green"}}/>
+                      {el}</p> <br/>
+                    </>)
                 })}  
             </div>          
         </div>    

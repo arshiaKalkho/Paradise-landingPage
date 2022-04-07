@@ -33,6 +33,11 @@
   
   
   @media only screen and (max-width: 750px) {
+    .realEstate-card-body-container {
+      flex-direction: column;
+      gap: 1rem;
+      padding-top: 1rem;
+    }
     .realEstate-card-body-container > img {
       width: 65%;
     }
