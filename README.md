@@ -1,6 +1,10 @@
 # Paradise-landingPage
 landing page for paradise inc.
 
+- this react project has two pages Pharma and RealEstate, projects in realEstate and supplements in Pharma are based on json files named accordingly in the main pages. to add new supplements or projects just add them to the same file names and the project will update automatically.
+- feel free to use this project as a template.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
