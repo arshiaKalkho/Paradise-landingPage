@@ -71,13 +71,15 @@ export default class realEstate extends Component {
           </div>
           
           
-            <div ref={ (ref) => this.RefProjects=ref } className='realEstate-products' id='Projects' style={{backgroundImage: 'url(./images/realEstate-projects-back.jpg)'}}>
+            <div ref={ (ref) => this.RefProjects=ref } className='realEstate-projects' id='Projects' style={{backgroundImage: 'url(./images/realEstate-projects-back.jpg)'}}>
               <h1>Projects</h1>
               <ScrollAnimation animateIn='animate__bounceInLeft' delay={200}>
-              {projects.map((el)=>{
-                  return <ProjectCard project={el} />
-              })} 
-            </ScrollAnimation>
+              <div className="realEstate-projects-grid">
+                  {projects.map((el)=>{
+                      return <ProjectCard project={el} />
+                  })} 
+              </div>
+              </ScrollAnimation>
           </div>
           
       </div>

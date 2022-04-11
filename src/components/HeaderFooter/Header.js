@@ -26,7 +26,7 @@ function Header() {
             Home
           </Link>
           <Link to="/Pharma" className="nav-links">
-            <FontAwesomeIcon style={{color:"#FFD200"}}className='nav-icon' icon={faPrescriptionBottleMedical} />
+            <FontAwesomeIcon className='nav-icon' icon={faPrescriptionBottleMedical} />
             Suplements</Link>
           <Link to="/RealEstate" className="nav-links">
             <FontAwesomeIcon className='nav-icon' icon={faBuilding} />

@@ -1,10 +1,30 @@
-[{
-    "image": "./images/arthelio-image.png",
-    "title" : "Willowdale",
-    "desc":[" exercitationem! Aliquam omnis reprehenderit facilis mollitia est aperiam praesentium assumenda ratione adipisci modi eum deserunt, necessitatibus iure qui ",
-        " our new project Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci placeat odio distinctio? Quaerat veritatis magni natus, qui saepe deserunt suscipit porro sint. Tempora ea nesciunt, minus, iusto!"
-    ]
-    
-    
-
-}]
+[
+    {
+        "image": "./images/arthelio-image.png",
+        "title" : "Willowdale",
+        "desc":[" exercitationem! Aliquam omnis reprehenderit facilis mollitia est aperiam praesentium assumenda ratione adipisci modi eum deserunt, necessitatibus iure qui ",
+            " our new project Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci placeat odio distinctio? Quaerat veritatis magni natus, qui saepe deserunt suscipit porro sint. Tempora ea nesciunt, minus, iusto!"
+        ]
+    },
+    {
+        "image": "./images/arthelio-image.png",
+        "title" : "Willowdale",
+        "desc":[" exercitationem! Aliquam omnis reprehenderit facilis mollitia est aperiam praesentium assumenda ratione adipisci modi eum deserunt, necessitatibus iure qui ",
+            " our new project Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci placeat odio distinctio? Quaerat veritatis magni natus, qui saepe deserunt suscipit porro sint. Tempora ea nesciunt, minus, iusto!"
+        ]
+    },
+    {
+        "image": "./images/arthelio-image.png",
+        "title" : "Willowdale",
+        "desc":[" exercitationem! Aliquam omnis reprehenderit facilis mollitia est aperiam praesentium assumenda ratione adipisci modi eum deserunt, necessitatibus iure qui ",
+            " our new project Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci placeat odio distinctio? Quaerat veritatis magni natus, qui saepe deserunt suscipit porro sint. Tempora ea nesciunt, minus, iusto!"
+        ]
+    },
+    {
+        "image": "./images/arthelio-image.png",
+        "title" : "Willowdale",
+        "desc":[" exercitationem! Aliquam omnis reprehenderit facilis mollitia est aperiam praesentium assumenda ratione adipisci modi eum deserunt, necessitatibus iure qui ",
+            " our new project Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci placeat odio distinctio? Quaerat veritatis magni natus, qui saepe deserunt suscipit porro sint. Tempora ea nesciunt, minus, iusto!"
+        ]
+    }
+]

@@ -1,6 +1,6 @@
 .realEstate-card {
     height: fit-content;
-    min-width: calc(100vw - 6rem);
+    width: 20rem;
     border: 1px solid black;
     border-radius: 5px;
     background-color: rgb(230, 230, 230, 0.95);
@@ -12,17 +12,18 @@
   }
   .realEstate-card-body-container{
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
   }
   .realEstate-card-body-container > img {
-    width: 30%;
+    width: 80%;
     height: auto;
     max-width: 20rem;
     max-height: 11rem;
     border-radius: 5px;
     border: 1px solid black;
+    margin-top: 1rem;
   }
   .realEstate-card-header {
     text-align: center;
@@ -42,7 +43,6 @@
       width: 65%;
     }
     .realEstate-card {
-      min-width: calc(100vw - 2rem);
       padding-left: 1rem;
       padding-right: 1rem;
     }
@@ -53,12 +53,10 @@
   }
   
   @media only screen and (max-width: 400px) {
-    .realEstate-card-body-container > img {
+    /* .realEstate-card-body-container > img {
       width: 70%;
-    }
-
-    .realEstate-card {
-      min-width: calc(100vw - 1rem);
+    } */
+    .realEstate-card{
       padding: 5px;
     }
   }
