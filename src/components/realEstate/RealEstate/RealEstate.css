@@ -44,7 +44,6 @@
   max-width: calc(100vw - 10px);
   padding: 1rem;
   font-size: 1.4rem;
-
   border-radius: 5px;
 
   border: 1px solid var(--color-realEstate-secondary);
@@ -106,6 +105,11 @@
   text-align: center;
   margin: 3rem;
   color: var(--color-realEstate-secondary);
+}
+@media only screen and (max-width: 500px) {
+  .realEstate-image-text{
+    padding: 0.5rem;
+  }
 }
 @media only screen and (max-width: 400px) {
   .realEstate-image-container {

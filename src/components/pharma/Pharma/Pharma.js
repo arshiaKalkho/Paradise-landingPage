@@ -38,7 +38,7 @@ export default class Pharma extends Component {
       <div className='pharma-main'>
           <div className='pharma-image-container' style={{backgroundImage: 'url(./images/pharma-back.jpg)'}}>
           <div className='top-header-container'>
-            <div className='top-header'>Proudly a Canadian <img className='logo' alt='logo' src='./images/canadian-flag.png' /> Company
+            <div className='top-header'>Proudly Canadian <img className='logo' alt='logo' src='./images/canadian-flag.png' />
             </div>
           </div>
           
