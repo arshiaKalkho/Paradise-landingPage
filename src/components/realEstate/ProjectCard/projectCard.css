@@ -53,9 +53,6 @@
   }
   
   @media only screen and (max-width: 400px) {
-    /* .realEstate-card-body-container > img {
-      width: 70%;
-    } */
     .realEstate-card{
       padding: 5px;
     }
