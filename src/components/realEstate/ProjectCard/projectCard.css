@@ -16,6 +16,7 @@
       align-items: center;
   }
   .realEstate-card-body-container > img {
+    aspect-ratio: 4/4;
     width: 100%;
     height: auto;
     max-width: 20rem;
@@ -38,12 +39,12 @@
   }
   .readMore-link{
     margin: 1rem;
-    pad: 1rem;
     border-radius: 5px;
     background-color: var(--color-headerFooter);
     text-align: center;
   }
   .readMore-link > a{
+    pad: 1rem;
     color: var(--color-realEstate-secondary);
     text-decoration: none;
     transition: 200ms ease-in-out;

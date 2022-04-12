@@ -1,7 +1,7 @@
 import React from 'react'
 import './ProjectCard.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faMinus} from '@fortawesome/free-solid-svg-icons'
+import {faMinus, faLocationDot} from '@fortawesome/free-solid-svg-icons'
 
 function ProjectCard(props) {
   
@@ -26,7 +26,7 @@ return (
                 })}
                  <br/>
                  
-                <p > <span className='product-info'>Location: </span>{props.project.location} </p> 
+                <p > <span className='product-info'><FontAwesomeIcon icon={faLocationDot}/> Location: </span>{props.project.location} </p> 
                  <br/>
                 <p > <span className='product-info'>Type: </span>{props.project.type} </p> 
                  <br/>

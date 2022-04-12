@@ -35,6 +35,7 @@ export default class realEstate extends Component {
     
     render() {
     return (
+     
       <div className='realEstate-main'>
           <div className='realEstate-image-container' style={{backgroundImage: 'url(./images/realEstate-back.jpg)'}}>
           <div className='top-header-container'>

@@ -12,51 +12,16 @@
         "lotSize":"30,000 Sqft"
     },
     {
-        "image": "./images/realEstateProjects/kings-hill.png",
-        "title" : "Kings Hill",
-        "desc":[" Six plus four modern attached single houses in Richmondhil Ontario. "
+        "image": "./images/realEstateProjects/Zonix-tower.png",
+        "title" : "Zonix Tower",
+        "desc":[" Residential Tower on Steeles Ave. "
         ],
-        "link":"https://kinghillhomes.com/",
-        "location": "356 King Road, Richmond Hill",
-        "type":"Semi-Detach and Townhouse",
-        "status":"Pre-Construction Sale",
-        "unitCount":"10",
-        "lotSize":"30,000 Sqft"
-    },
-    {
-        "image": "./images/realEstateProjects/kings-hill.png",
-        "title" : "Kings Hill",
-        "desc":[" Six plus four modern attached single houses in Richmondhil Ontario. "
-        ],
-        "link":"https://kinghillhomes.com/",
-        "location": "356 King Road, Richmond Hill",
-        "type":"Semi-Detach and Townhouse",
-        "status":"Pre-Construction Sale",
-        "unitCount":"10",
-        "lotSize":"30,000 Sqft"
-    },
-    {
-        "image": "./images/realEstateProjects/kings-hill.png",
-        "title" : "Kings Hill",
-        "desc":[" Six plus four modern attached single houses in Richmondhil Ontario. "
-        ],
-        "link":"https://kinghillhomes.com/",
-        "location": "356 King Road, Richmond Hill",
-        "type":"Semi-Detach and Townhouse",
-        "status":"Pre-Construction Sale",
-        "unitCount":"10",
-        "lotSize":"30,000 Sqft"
-    },
-    {
-        "image": "./images/realEstateProjects/kings-hill.png",
-        "title" : "Kings Hill",
-        "desc":[" Six plus four modern attached single houses in Richmondhil Ontario. "
-        ],
-        "link":"https://kinghillhomes.com/",
-        "location": "356 King Road, Richmond Hill",
-        "type":"Semi-Detach and Townhouse",
-        "status":"Pre-Construction Sale",
-        "unitCount":"10",
-        "lotSize":"30,000 Sqft"
+        "link":"https://zonix.ca/communities/zonix-tower/",
+        "location": "Intersection of Yonge and Steels Ave",
+        "type":"Residential building",
+        "status":"Planning",
+        "unitCount":"~150",
+        "lotSize":"TBA"
     }
+    
 ]
