@@ -21,9 +21,24 @@ return (
                     return (
                     <>
                      <p><FontAwesomeIcon icon={faMinus} style={{color:"green"}}/>
-                      {el}</p> <br/>
+                      {el}</p>
                     </>)
-                })}  
+                })}
+                 <br/>
+                 
+                <p > <span className='product-info'>Location: </span>{props.project.location} </p> 
+                 <br/>
+                <p > <span className='product-info'>Type: </span>{props.project.type} </p> 
+                 <br/>
+                <p > <span className='product-info'>Unit Count: </span>{props.project.unitCount} </p> 
+                 <br/>
+                <p > <span className='product-info'>Lot Size: </span>{props.project.lotSize} </p> 
+                 <br/>
+                <p > <span className='product-info'>Status: </span> <span className='status'>{props.project.status}</span> </p> 
+                <div className='readMore-link'>
+                    <a  href={props.project.link} >Read More</a>
+                </div>
+
             </div>          
         </div>    
     </div>   

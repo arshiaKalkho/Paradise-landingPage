@@ -5,8 +5,7 @@
     border-radius: 5px;
     background-color: rgb(230, 230, 230, 0.95);
     box-shadow: 3px 2px 1px 1px rgba(0, 0, 0, 0.4);
-    padding: 1rem 2rem;
-    padding-bottom: 4rem;
+    padding: 1rem 1rem;
     overflow: hidden;
     
   }
@@ -17,7 +16,7 @@
       align-items: center;
   }
   .realEstate-card-body-container > img {
-    width: 80%;
+    width: 100%;
     height: auto;
     max-width: 20rem;
     max-height: 11rem;
@@ -31,16 +30,36 @@
   .realEstate-card-body {
     padding: 1rem;
   }
-  
+  .product-info{
+    font-weight: bold;
+  }
+  .status{
+    color: var(--color-realEstate-secondary);
+  }
+  .readMore-link{
+    margin: 1rem;
+    pad: 1rem;
+    border-radius: 5px;
+    background-color: var(--color-headerFooter);
+    text-align: center;
+  }
+  .readMore-link > a{
+    color: var(--color-realEstate-secondary);
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+
+  }
+  .readMore-link:hover > a{
+    color: white;
+    transition: 200ms ease-in-out;
+    transition: 200ms ease-in-out;
+  }
   
   @media only screen and (max-width: 750px) {
     .realEstate-card-body-container {
       flex-direction: column;
       gap: 1rem;
       padding-top: 1rem;
-    }
-    .realEstate-card-body-container > img {
-      width: 65%;
     }
     .realEstate-card {
       padding-left: 1rem;
