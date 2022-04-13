@@ -30,13 +30,13 @@ function Footer() {
         </div>
         <div className="footer-right">
           <h3 className='footer-headers'>Contact Us:</h3>
-          <button className="copy-contact" onClick={()=>clickHandler("Jabdol@gmail.com")}>
+          <button className="copy-contact" onClick={()=>clickHandler("tmeporarily not available")}>
           <FontAwesomeIcon className='footer-icon' icon={faCopy} />
-            Jabdol@gmail.com
+          tmeporarily not available
           </button>
-          <button className="copy-contact" onClick={()=>clickHandler("+98 09121136311")}>
+          <button className="copy-contact" onClick={()=>clickHandler("tmeporarily not available")}>
           <FontAwesomeIcon className='footer-icon' icon={faCopy} />
-            +98 09121136311
+            tmeporarily not available
           </button>
           
         </div>
