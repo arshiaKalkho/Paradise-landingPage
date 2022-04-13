@@ -113,6 +113,7 @@
   margin: 3rem;
   color: var(--color-realEstate-secondary);
 }
+
 @media only screen and (max-width: 500px) {
   .realEstate-image-text{
     padding: 0.5rem;

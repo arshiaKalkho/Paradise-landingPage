@@ -39,12 +39,16 @@
   }
   .readMore-link{
     margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 5px;
-    background-color: var(--color-headerFooter);
     text-align: center;
   }
   .readMore-link > a{
-    pad: 1rem;
+    border-radius: 5px;
+    background-color: var(--color-headerFooter);
+    padding: .25rem 1rem;
     color: var(--color-realEstate-secondary);
     text-decoration: none;
     transition: 200ms ease-in-out;

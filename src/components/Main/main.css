@@ -37,7 +37,7 @@
   position: relative;
   transform: translateX(10%);
   transition: 400ms ease-in-out;
-
+  
   filter: brightness(50%);
 }
 
@@ -91,5 +91,7 @@
   .pharma-text {
     font-size: x-small;
     padding: 0.5rem;
+    
   }
+  
 }
